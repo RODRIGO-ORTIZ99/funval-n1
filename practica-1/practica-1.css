@@ -1,0 +1,39 @@
+* {
+    background-color: rgba(253, 105, 0, 0.734);
+    border-color: aliceblue;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+
+}
+
+h2,
+h3 {
+    color: rgba(76, 42, 16, 0.714);
+}
+
+a {
+    color: rgb(51, 0, 255);
+}
+
+img {
+    width: 350px;
+    height: 450px;
+    border-radius: 25px;
+}
+
+p,
+h2,
+h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.borde {
+    border: 5px solid black;
+}
+
+.borde2 {
+    border: 5px dotted black;
+}
