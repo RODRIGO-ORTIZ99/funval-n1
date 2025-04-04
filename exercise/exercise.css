@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(211, 211, 211);
+    border-radius: 15px;
+}
+
+body {
+
+    padding: 5px;
+}
+
+header {
+    border: solid 5px blue;
+    height: 70px;
+
+}
+
+nav {
+
+    border: solid 5px orange;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+picture,
+ul {
+
+    border: solid 5px green;
+}
+
+picture {
+
+    width: 20%;
+    max-width: 150px;
+    height: 100%;
+
+
+}
+
+ul {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+li {
+    border: solid 3px red;
+    width: 30%;
+    height: 80%;
+    list-style: none;
+}
+
+main {
+
+    border: solid 5px orange;
+    margin: 25px 0px;
+}
+
+section {
+    margin: 6px;
+    padding: 5px;
+    height: 350px;
+    background-color: burlywood;
+    border: solid 5px blue;
+    display: flex;
+}
+
+section>div {
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    border: solid 5px green;
+    display: flex;
+}
+
+.box1 {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px
+}
+
+.box1>div {
+    border: solid 5px red;
+    height: 33%;
+    width: 33%;
+}
+
+.box2 {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px
+}
+
+.box2>div {
+    border: solid 5px red;
+    height: 45%;
+    width: 45%;
+}
+
+.box3 {
+    align-items: baseline;
+    padding: 25px 7PX;
+    display: block;
+}
+
+.box3>h1 {
+    border: solid 5px red;
+    height: 24%;
+    width: 40%;
+}
+
+.box3>p {
+    margin: 150px 0;
+    border: solid 5px red;
+    height: 24%;
+    width: 93%;
+}
+
+.box {
+    align-items: center;
+    justify-items: center;
+}
+
+.box>img {
+    border: solid 5px red;
+    height: 24%;
+    width: 40%;
+}
