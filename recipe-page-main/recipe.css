@@ -1,0 +1,191 @@
+* {
+    margin: 0.5%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%);
+    font-family: "Young serif", serif;
+    line-height: 1.5;
+    display: grid;
+    place-content: center;
+}
+
+img {
+    margin-top: 30px;
+}
+
+h1,
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+h1 {
+
+    margin: 15px;
+    color: hsl(24, 5%, 18%);
+    font-size: 2.6rem;
+}
+
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 1rem;
+}
+
+.Instructions-container {
+    margin: 1rem 0;
+}
+
+.Nutrition {
+    padding-left: 1rem;
+}
+
+ul {
+    padding-left: 1.25rem;
+}
+
+ul li::marker {
+    color: hsl(30, 10%, 34%);
+}
+
+hr {
+    margin: 1.5rem 0;
+    border: 1px solid var(hsl(30, 18% 87%));
+}
+
+.Container {
+    max-width: 800px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+.Imagen {
+    padding: 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+img {
+    border-radius: 1rem;
+    width: 720px;
+
+    top: 20%;
+    right: 60px;
+}
+
+.Information {
+    margin: 15px;
+    padding: 10px;
+}
+
+.Ingredients {
+    margin: 1.5rem 0;
+}
+
+.Instructions-container {
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.Description {
+    margin: 15px;
+    padding: 10px;
+}
+
+.div-preparation-color {
+    padding: 30px;
+    width: 100%;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.Preparation {
+
+    padding: 1.2rem;
+    border-radius: 1rem;
+}
+
+.Preparation h3 {
+    color: hsl(332, 51%, 32%);
+    margin-bottom: .75rem;
+}
+
+.Preparation ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.Ingredients li {
+    margin-bottom: .5rem;
+}
+
+.Ingredients li span {
+    font-weight: initial;
+}
+
+.Instructions-container .detail {
+    padding-left: .5rem;
+    margin-bottom: -5rem;
+    display: flex;
+}
+
+.Instructions-container .detail .value {
+    padding-left: .5rem;
+    margin-bottom: -5rem;
+    display: flex;
+}
+
+.Instructions-container .detail p span {
+    font-weight: 700;
+}
+
+.Nutrition .Values {
+    margin-bottom: 1rem;
+}
+
+.Nutri-table .detail {
+    padding: .75rem 2 rem;
+    display: flex;
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+}
+
+.Nutri-table .value:last-child {
+    border-bottom: 0;
+}
+
+.Nutri-table .value:last-child(2) {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.Nutri-table .value>* {
+    width: 100px;
+    margin-right: auto;
+}
+
+.value1 {
+    position: relative;
+    margin: 8px 420px;
+    color: hsl(332, 51%, 32%);
+}
+
+.value2 {
+    position: relative;
+    margin: 8px 438px;
+    color: hsl(332, 51%, 32%);
+}
+
+.value3 {
+    position: relative;
+    margin: 8px 427px;
+    color: hsl(332, 51%, 32%);
+}
+
+.value4 {
+    position: relative;
+    margin: 8px 460px;
+    color: hsl(332, 51%, 32%);
+}
