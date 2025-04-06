@@ -59,16 +59,16 @@ li {
 
 main {
 
-    border: solid 5px orange;
+    border: 5px solid rgb(255, 123, 0);
     margin: 25px 0px;
 }
 
 section {
-    margin: 6px;
+    margin: 0px;
     padding: 5px;
     height: 350px;
-    background-color: burlywood;
-    border: solid 5px blue;
+
+    border: solid 5px rgb(0, 26, 255);
     display: flex;
 }
 
@@ -123,13 +123,36 @@ section>div {
     width: 93%;
 }
 
-.box {
-    align-items: center;
-    justify-items: center;
+.box4 {
+    padding-left: 12%;
 }
 
-.box>img {
+.box4>img {
+    align-items: center;
     border: solid 5px red;
-    height: 24%;
-    width: 40%;
+    height: 50%;
+    width: 35%;
+}
+
+.footer {
+    border: 5px solid blue;
+    height: 150px;
+    position: absolute;
+    width: 98.6%;
+    /* DUDA DETRAS ESTA UNA RAYA DEL MAIN */
+    top: 810px;
+    padding: 20px 23px;
+}
+
+.footer>div {
+    display: inline-block;
+    border: solid 5px green;
+    height: 98px;
+    width: 130px;
+    position: relative;
+}
+
+.div-f2 {
+    position: relative;
+    left: 400px;
 }
