@@ -11,6 +11,8 @@ const productos = [
     { nombre: "Tablet", precio: 500 }
 ];
 
+let opcion;
+
 do {
     opcion = prompt(
         "Bienvenido que metodo gusta checar:\n1. forEach\n2. map + includes\n3. map\n4. filter\n5. slice\n6. soft\n7. reverse\n8. SALIR"
